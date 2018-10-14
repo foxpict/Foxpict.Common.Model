@@ -3,7 +3,7 @@ using Hyperion.Pf.Entity;
 
 namespace Foxpict.Common.Model {
   public interface IEventLog : IEntity<long> {
-    int EventId { get; set; }
+    int EventNo { get; set; }
 
     DateTime EventDate { get; set; }
 
