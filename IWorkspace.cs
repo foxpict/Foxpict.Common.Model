@@ -26,6 +26,12 @@ namespace Foxpict.Common.Model {
     string VirtualPath { get; set; }
 
     /// <summary>
+    /// インポート用領域のパス
+    /// </summary>
+    /// <returns></returns>
+    string ImportPath { get; set; }
+
+    /// <summary>
     /// 最終フルビルド実行日時
     /// </summary>
     /// <returns></returns>
